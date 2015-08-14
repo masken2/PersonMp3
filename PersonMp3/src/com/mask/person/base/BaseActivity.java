@@ -1,18 +1,20 @@
-package com.mask.person;
-
-import com.mask.person.base.BaseActivity;
+package com.mask.person.base;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 
-public class PageActiivty extends BaseActivity{
-
+/**
+ * »ùÀà
+ * @author zhuangAH
+ *
+ */
+public class BaseActivity extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.fragmer_page);
 	}
+
 }

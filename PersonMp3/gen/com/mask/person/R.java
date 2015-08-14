@@ -27,8 +27,8 @@ public final class R {
         public static final int splach=0x7f020002;
     }
     public static final class layout {
-        public static final int activity1_page=0x7f030000;
-        public static final int activity_splach=0x7f030001;
+        public static final int activity_splach=0x7f030000;
+        public static final int fragmer_page=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f070000;

@@ -1,5 +1,6 @@
 package com.mask.person;
 
+import com.mask.person.base.BaseActivity;
 import com.mask.person.utils.UIHelper;
 
 import android.app.Activity;
@@ -10,7 +11,12 @@ import android.view.MenuItem;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 
-public class SplachActivity extends Activity {
+/**
+ * ∆Ù∂ØΩÁ√Ê
+ * @author zhuangAh
+ *
+ */
+public class SplachActivity extends BaseActivity {
 
 	private Handler handler = new Handler();
 
@@ -28,7 +34,6 @@ public class SplachActivity extends Activity {
 		public void run() {
 
 			UIHelper.toPageActivity(SplachActivity.this);
-			finish();
 		}
 	};
 
